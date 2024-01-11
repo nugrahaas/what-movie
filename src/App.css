@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+  font-family: 'Segoe UI';
+}
+
+.App-header {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(255, 255, 255);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.movie-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.movie-wrapper {
+  border: 0;
+  border-radius: 50px;
+  width: 360px;
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+}
+
+.movie-search{
+  border: 0;
+  border-radius: 50px;
+  height: 24px;
+  font-size: 16px;
+  margin-bottom: 32px;
+  padding: 16px;
+  font-weight: bold;
+  width: 350px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.movie-title{
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 36px;
+  margin-top: 16px;
+  font-weight: bold;
+}
+
+.movie-date{
+  margin-top: 16px;
+  font-style: italic;
+}
+
+.movie-rate{
+  margin-bottom: 14px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+h4{
+  margin-top: -20px;
+  font-weight: lighter;
+  color: red;
+  font-family: gill sans mt;
+}
